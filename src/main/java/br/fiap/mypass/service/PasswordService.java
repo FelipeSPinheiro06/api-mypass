@@ -16,4 +16,5 @@ public class PasswordService {
     public List<Password> findAll() {
         return passwordRepository.findAll();
     }
+
 }
